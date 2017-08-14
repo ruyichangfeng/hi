@@ -1,0 +1,27 @@
+{
+	 "require": {
+		 "elasticsearch/elasticsearch": "~1.0",
+		 "php-amqplib/php-amqplib": "2.6.*",
+	 	 "nette/mail": "^2.4",
+	 	 "mashape/unirest-php": "^3.0",
+	 	 "guzzlehttp/guzzle": "~6.0",
+	 	 "phpmentors/workflower": "1.1.*",
+	 	 "clue/buzz-react": "^1.0"
+	 },
+     "autoload": {
+        "psr-4":
+			{
+				"Test\\My\\": "test/",
+				"Test\\Util\\":"util/"
+			}
+     },
+	"require-dev": {
+		"phpdocumentor/phpdocumentor": "2.*",
+		"phpunit/phpunit": "5.4.*",
+		"phpunit/php-invoker": "*",
+		"phpunit/dbunit": ">=1.2",
+	 	 "phing/phing": "^2.14"
+	}
+}
+
+
